@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main>
+<div class="container"><!--1st parent tag-->
+<h1>Currency Converter</h1>
+<form><!--2nd parent tag-->
+<div class="amount"><!--1st child tag-->
+    <p>Enter Amount</p>
+    <input value="100" type="text">
+</div><!--1st grand-child tag end's here-->
+<div class="dropdown">
+<div class="from"><!--1st child tag-->
+    <p>From</p>
+    <div class="select-container">
+        <img src="https://flagsapi.com/US/flat/64.png">
+        <select name="from">
+           <!-- <option value="PKR">PKR</option>
+            <option value="USD" selected>USD</option>
+            <option value="INR">INR</option>
+            <option value="AED">AED</option>-->
+        </select>
+    </div>
+</div><!--1st child tag end's here-->
+<i class="fa-solid fa-arrow-right-arrow-left"></i>
+<div class="to"><!--2nd child tag-->
+<p>To</p>
+<div class="select-container">
+    <img src="https://flagsapi.com/PK/shiny/64.png">
+    <select name="to">
+        <!--<option value="EUR">EUR</option>
+        <option value="INR">INR</option>
+        <option value="USD">USD</option>
+        <option value="AED">AED</option>
+        <option value="PKR" selected>PKR</option>-->
+    </select>
+</div>
+</div><!--2nd child tag end's here-->
+</div><!--1st grand-child end's here-->
+<div class="msg">1USD = 280PKR</div> 
+<button>Get exchange rate</button>
+</form><!--2nd parent tag end's here-->
+</div><!--1st parent tag end's here-->
+<script src="codes.js"></script>
+        <script src="first.js"></script>
+    </main>
+</body>
+</html>
